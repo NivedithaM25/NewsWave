@@ -1,0 +1,180 @@
+/* Add this CSS code for responsiveness */
+@media (max-width: 768px) {
+    .navbar_top {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .top1,
+    .top2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0;
+      text-align: center;
+    }
+    .top1 p,
+    .top2 button {
+      margin: 6px 0;
+      padding: 8px;
+    }
+    .navbar_dateTime,
+    .navbar_cityTemp,
+    .main_heading,
+    .lower_navbar {
+      text-align: center;
+      width: 100%;
+      margin: 0;
+      padding: 8px;
+    }
+    .lower_navbar {
+      position: relative;
+      top: unset;
+      border-bottom: none;
+    }
+    .navbar_lower_ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .navbar_lower_ul li {
+      margin: 6px;
+    }
+    .searchlogo,
+    .searchInput {
+      display: none;
+    }
+  }
+  
+.navbar_top {
+    color: rgb(99, 99, 99);
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: solid rgb(214, 209, 209) 1px; 
+}
+.top1{
+    display: flex;
+    padding: 0px 4px;
+    /* justify-content: space-between; */
+}
+.top2{
+    display: flex;
+    align-items: center;
+
+    padding: 0px 4px;
+
+}
+.top1 p{
+    padding: 0 12px;
+}
+.navbar_dateTime{
+    border-right: solid rgb(214, 209, 209) 1px; 
+    border-left: solid rgb(214, 209, 209) 1px; 
+    display: inline-block;
+}
+.navbar_dateTime p{
+    padding-right: 12px; padding-left: 12px;
+}
+.navbar_cityTemp_span{
+    /* font-size: 14px;  */
+    letter-spacing: -0.2px; 
+    cursor: pointer; 
+    padding-left: 4px;
+}
+.navbar_timesPoints{
+    cursor: pointer; 
+    color: white; 
+    background-color: rgb(201, 1, 1);
+    border-radius: 5px;
+    padding: 5px 10px ;
+}
+.navbar_signIn{
+    font-size: 12px;
+    cursor: pointer;
+    padding-right: 15px;
+    padding-left: 8px;
+}
+.inflag {
+    height: 10px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+    margin: 0 4px;
+    padding: 5px 6px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+
+.fa-twitter{
+outline: 1px rgb(0, 119, 255) solid;
+color:rgb(0, 119, 255);
+}
+.fa-youtube{
+    outline: 1px red solid;
+    color: red;
+
+}
+.fa-facebook{
+    outline: 1px blue solid;
+    color: blue;
+}
+.social_media_icons{
+    margin: 0;
+}
+.mainhead{
+    width: 80%;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 2.8em;
+    padding: 18px;
+    letter-spacing: -3px;
+    margin: 0 auto;
+    color: rgb(26, 26, 26);
+}
+.lower_navbar{
+    border-top: 1px solid  rgb(214, 209, 209);
+    border-bottom: solid 2px; 
+    margin: 0 40px; 
+    padding: 0; 
+    position: sticky; 
+    z-index: 9999; 
+    top: 0; 
+    color: rgb(26, 26, 26) ;
+    background: rgb(246,246,246);
+}
+.navbar_lower_ul{
+    display: flex;
+    font-size: 14px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    /* color: rgb(99, 99, 99); */
+    margin: 10px 0;
+    padding: 0 10px;
+
+}
+.navbar_lower_ul li{
+    cursor: pointer;
+}
+.searchlogo{
+    width: 15px;
+    height: 15px;
+    
+
+}
+.searchlogoleft{
+    padding-left: 50px;
+}
+.NWplus{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: news-api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: AUTH_SERVICE
+          uri: http://localhost:8081
+          predicates:
+            - Path=/auth/**
+        - id: USER_SERVICE
+          uri: http://localhost:8082
+          predicates:
+            - Path=/user/**
+        - id: NEWS_SERVICE
+          uri: http://localhost:8080
+          predicates:
+            - Path=/newswave/**
+        - id: WISHLIST_SERVICE
+          uri: http://localhost:8084
+          predicates:
+            - Path=/wishlist/**
+
+server:
+  port: 8088
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

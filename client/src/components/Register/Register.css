@@ -1,0 +1,23 @@
+/* .registration_container{
+    text-align: center;
+} */
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /* height: 100vh; Adjust height as needed */
+  }
+
+  .btn-register {
+    background-color: rgb(240, 13, 13);
+    color: white;
+    border: 1px solid black;
+  }
+  
+  /* Override default Bootstrap button hover and focus styles */
+  /* .btn-register:hover,
+  .btn-register:focus {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  } */

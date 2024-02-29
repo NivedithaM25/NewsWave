@@ -1,0 +1,67 @@
+
+/* Add this CSS code for responsiveness */
+@media (max-width: 768px) {
+    .footer_container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer_tableMain {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .footer_tableMain td {
+      padding: 8px 0;
+      text-align: center;
+    }
+    .footer_heading {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .NW_biglogo {
+      width: 150px;
+    }
+  }
+  
+.footer_container{
+    
+    margin:0 40px ;
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 30px 0;
+    border-top: 2px solid #000000;
+}
+.NW_biglogo{
+    width: 200px; 
+    margin-bottom: 10px;
+}
+.footer_tableMain{
+    border-spacing: 0 ;
+    color: rgb(73, 73, 73);
+    font-size: 12px;
+}
+.footer_heading{
+    font-family: Montserrat,Verdana,arial,sans-serif; 
+    padding-bottom: 0;
+    margin-bottom: 10px;  
+    color: rgb(26, 26, 26); 
+    font-size: 14px;
+}
+
+.footer_socialMediaTable{
+    width: 200px;
+}
+
+.footer_tableMain td{
+    padding-right: 15px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    
+    
+}
+.footer_copyRight{
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    border-top: 1px dotted #a5a5a5;
+}

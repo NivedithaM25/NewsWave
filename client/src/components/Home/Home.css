@@ -1,0 +1,16 @@
+/* .home{
+    text-align: center;
+} */
+
+/* .home_container{
+    color: rgb(99, 99, 99);
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: solid rgb(214, 209, 209) 1px; 
+} */
+.home_container{
+    margin: 50%;
+}
